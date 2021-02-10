@@ -1,7 +1,7 @@
 <!-- [![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions) -->
 <br />
 
-[![Actions status](https://github.com/game-ci/unity-test-runner/workflows/Actions%20%F0%9F%98%8E/badge.svg)](https://github.com/game-ci/unity-test-runner/actions?query=workflow%3A%22Actions+%F0%9F%98%8E%22)
+![Build project](https://github.com/studentutu/Unity3DCleanArchitecture/workflows/Build%20project/badge.svg?branch=main)
 <br />
 
 # Clean Architecture

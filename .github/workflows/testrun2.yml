@@ -15,9 +15,9 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - AppCA/
+          - app-ca
         unityVersion:
-          - 2019.4.16f1
+          - 2019.4.13f1
         testMode:
           - playmode
           - editmode

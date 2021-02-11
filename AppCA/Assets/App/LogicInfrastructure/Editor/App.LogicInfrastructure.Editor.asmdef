@@ -1,0 +1,17 @@
+{
+    "name": "App.LogicInfrastructure.Editor",
+    "references": [
+        "GUID:842811e951fbfa340895ab5a22aa9615"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

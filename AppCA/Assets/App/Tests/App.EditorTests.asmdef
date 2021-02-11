@@ -1,0 +1,38 @@
+{
+    "name": "App.EditorTests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "App.LogicAppShared.Editor",
+        "App.LogicAppShared",
+        "App.LogicCore.Editor",
+        "App.LogicCore",
+        "App.LogicInfrastructure.Editor",
+        "App.LogicInfrastructure",
+        "App.LogicPresentation.Editor",
+        "App.LogicPresentation",
+        "com.editor.unity3d.nsubstitute",
+        "UniTask",
+        "UniTask.Linq",
+        "UniTask.TextMeshPro",
+        "UniTask.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Castle.Core.dll",
+        "NSubstitute.dll",
+        "System.Threading.Tasks.Extensions.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

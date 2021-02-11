@@ -22,6 +22,12 @@
 # Visual Studio cache directory
 .vs/
 
+# Rider
+.idea
+
+# npm
+node_modules
+
 # Gradle cache directory
 .gradle/
 

@@ -9,7 +9,7 @@ namespace App.LogicAppShared.Runtime.Scripts.CommonPatterns
         Task<IResult> Build();
     }
     
-    public interface IBuilder<T> : IBuilder
+    public interface IBuilder<T> : IBuilder where T : class
     {
     }
 }

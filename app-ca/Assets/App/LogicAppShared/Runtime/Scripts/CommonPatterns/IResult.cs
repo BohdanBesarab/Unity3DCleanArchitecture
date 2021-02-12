@@ -4,4 +4,9 @@
     {
         
     }
+    
+    public interface IResult<T> : IResult where T : class
+    {
+        T GetResult();
+    }
 }

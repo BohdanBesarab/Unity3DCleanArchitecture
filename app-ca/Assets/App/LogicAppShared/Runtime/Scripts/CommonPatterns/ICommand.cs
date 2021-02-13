@@ -4,7 +4,7 @@
     {
         void Execute();
     }
-    
+
     public interface ICommand<T> : ICommand where T : class
     {
     }

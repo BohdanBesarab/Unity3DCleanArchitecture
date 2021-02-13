@@ -9,7 +9,7 @@
     {
         IPrototype Clone();
     }
-    
+
     /// <summary>
     /// Fill the data for object. Make sure to copy it!
     /// </summary>

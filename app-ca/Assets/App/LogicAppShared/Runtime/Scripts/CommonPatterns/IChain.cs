@@ -3,7 +3,7 @@
     public interface IChain
     {
         IChain NextHandler { get; }
-    
+
         IChain SetNext(IChain nextHander);
     }
 

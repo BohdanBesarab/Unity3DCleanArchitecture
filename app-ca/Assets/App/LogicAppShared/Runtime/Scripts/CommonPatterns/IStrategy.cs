@@ -4,7 +4,7 @@
     {
         void SetStrategy(IStrategy<T> targetStrategy);
     }
-    
+
     public interface IStrategy<T> where T : class
     {
         void Execute(T data);

@@ -4,10 +4,10 @@
     {
         void Accept(IVisitor visitor);
     }
-    
+
     public interface IVisitor
     {
-         // void Visit( ConcreteElementToVisit actualElement);
+        // void Visit( ConcreteElementToVisit actualElement);
     }
 
     public class ConcreteElementToVisit : NULLObject, IElementForVisitor

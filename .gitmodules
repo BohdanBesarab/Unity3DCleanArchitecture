@@ -1,0 +1,4 @@
+[submodule "app-ca/Assets/Modules/MRTKShadersOnly"]
+	path = app-ca/Assets/Modules/MRTKShadersOnly
+	url = git@github.com:studentutu/MRTKShadersOnly.git
+	branch = master

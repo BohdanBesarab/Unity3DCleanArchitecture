@@ -2,6 +2,7 @@
 <br />
 
 ![TestRunner](https://github.com/studentutu/Unity3DCleanArchitecture/workflows/TestRunner/badge.svg?branch=main)
+![CodeCoverage](/app-ca/CodeCoverage/Report/badge_combined.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture/badge)](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture)
 <br />
 

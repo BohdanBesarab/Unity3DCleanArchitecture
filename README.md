@@ -2,6 +2,7 @@
 <br />
 
 ![TestRunner](https://github.com/studentutu/Unity3DCleanArchitecture/workflows/TestRunner/badge.svg?branch=main)
+[![CodeFactor](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture/badge)](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture)
 <br />
 
 # Clean Architecture

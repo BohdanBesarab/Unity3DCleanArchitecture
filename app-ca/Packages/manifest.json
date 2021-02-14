@@ -8,6 +8,7 @@
     "com.unity.mobile.android-logcat": "1.2.1",
     "com.unity.quicksearch": "2.0.2",
     "com.unity.test-framework": "1.1.19",
+    "com.unity.testtools.codecoverage": "0.4.2-preview",
     "com.unity.textmeshpro": "2.1.1",
     "com.unity.timeline": "1.2.17",
     "com.unity.ugui": "1.0.0",

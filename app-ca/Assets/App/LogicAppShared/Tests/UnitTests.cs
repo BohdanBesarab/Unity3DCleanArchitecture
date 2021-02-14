@@ -1,11 +1,11 @@
-﻿using App.LogicAppShared.Runtime.Scripts.CommonPatterns;
+﻿using System.Collections;
+using System.Threading.Tasks;
+using App.LogicAppShared.Runtime.Scripts.CommonPatterns;
 using NSubstitute;
 using NUnit.Framework;
-using System.Collections;
-using System.Threading.Tasks;
 using UnityEngine.TestTools;
 
-namespace Tests
+namespace App.LogicAppShared.Tests
 {
     public class UnitTests
     {

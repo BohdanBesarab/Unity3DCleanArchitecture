@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>14.02.2021 - 18:35:55</Generatedon>
+    <Parser>OpenCoverParser</Parser>
+    <Assemblies>3</Assemblies>
+    <Classes>11</Classes>
+    <Files>7</Files>
+    <Coveredlines>28</Coveredlines>
+    <Uncoveredlines>123</Uncoveredlines>
+    <Coverablelines>151</Coverablelines>
+    <Totallines>332</Totallines>
+    <Linecoverage>18.5</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="App.Logic.AppShared.Tests" classes="1" coverage="86.2" coveredlines="25" coverablelines="29" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="App.LogicAppShared.Tests.UnitTests" coverage="86.2" coveredlines="25" coverablelines="29" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="App.LogicAppShared" classes="8" coverage="2.7" coveredlines="3" coverablelines="110" totallines="557" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.ConcreteElementToVisit" coverage="0" coveredlines="0" coverablelines="3" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.GenericLazyIterator[T]" coverage="0" coveredlines="0" coverablelines="14" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.ILazyIteratorExtensions" coverage="0" coveredlines="0" coverablelines="3" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.IVisitorExtension" coverage="0" coveredlines="0" coverablelines="2" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.NULLObject" coverage="50" coveredlines="3" coverablelines="6" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.Singleton[T]" coverage="0" coveredlines="0" coverablelines="78" totallines="133" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.SingletonPersistent[T]" coverage="0" coveredlines="0" coverablelines="1" totallines="133" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.SingletonSelfCreator[T]" coverage="0" coveredlines="0" coverablelines="3" totallines="133" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="App.LogicCore" classes="2" coverage="0" coveredlines="0" coverablelines="12" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="App.LogicCore.Runtime.Scripts.Data.TitleNullException" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="App.LogicCore.Runtime.Scripts.Data.ToDoListItem" coverage="0" coveredlines="0" coverablelines="9" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

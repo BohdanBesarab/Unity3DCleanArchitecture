@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2021-03-01_22-51-05" tag="">
+  <assembly name="App.Logic.AppShared.Tests">
+    <class name="App.LogicAppShared.Tests.UnitTests" coveredlines="110" coverablelines="120" totallines="204" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="App.LogicAppShared">
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.ConcreteElementToVisit" coveredlines="0" coverablelines="3" totallines="28" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.GenericLazyIterator[T]" coveredlines="0" coverablelines="14" totallines="44" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.ILazyIteratorExtensions" coveredlines="0" coverablelines="3" totallines="44" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.IVisitorExtension" coveredlines="0" coverablelines="2" totallines="28" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.NULLObject" coveredlines="3" coverablelines="6" totallines="22" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.Singleton[T]" coveredlines="60" coverablelines="84" totallines="144" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.SingletonPersistent[T]" coveredlines="0" coverablelines="1" totallines="144" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.SingletonSelfCreator[T]" coveredlines="2" coverablelines="3" totallines="144" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicAppShared.Runtime.Scripts.CommonPatterns.TrueNullCheck" coveredlines="3" coverablelines="3" totallines="22" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="App.LogicCore">
+    <class name="App.LogicCore.Runtime.Scripts.Data.TitleNullException" coveredlines="0" coverablelines="3" totallines="12" coveredbranches="0" totalbranches="0" />
+    <class name="App.LogicCore.Runtime.Scripts.Data.ToDoListItem" coveredlines="0" coverablelines="9" totallines="27" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

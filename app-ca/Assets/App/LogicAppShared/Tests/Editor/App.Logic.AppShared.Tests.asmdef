@@ -5,7 +5,8 @@
         "UnityEditor.TestRunner",
         "App.LogicAppShared",
         "App.LogicAppShared.Editor",
-        "com.editor.unity3d.nsubstitute"
+        "com.editor.unity3d.nsubstitute",
+        "App.Logic.AppShared.Tests.Runtime"
     ],
     "includePlatforms": [
         "Editor"

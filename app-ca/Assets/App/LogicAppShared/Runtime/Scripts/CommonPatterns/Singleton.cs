@@ -21,19 +21,27 @@ namespace App.LogicAppShared.Runtime.Scripts.CommonPatterns
                     _instance = FindObjectOfType<T>();
                     if (_instance == null && !ApplicationIsQuitting)
                     {
-                        var intermediate = new GameObject(string.Format(FORMATING_STRING, PARENT_NAME, typeof(T).Name)).AddComponent<T>();
+                        var intermediate = new GameObject(string.Format(FORMATING_STRING, PARENT_NAME, typeof(T).Name))
+                            .AddComponent<T>();
                         if (intermediate.IsLoadFromPrefab)
                         {
                             var prefab = Resources.Load<GameObject>(intermediate.GetPrefabPath);
                             if (prefab != null)
                             {
                                 DestroyImmediate(intermediate.gameObject);
-                                var go = Instantiate(prefab, null) as GameObject;
+                                var go = Instantiate(prefab, null);
                                 go.name = prefab.name;
                                 intermediate = go as T;
                                 if (intermediate == null)
                                 {
                                     intermediate = go.GetComponentInChildren<T>();
+                                }
+
+                                if (intermediate == null)
+                                {
+                                    intermediate = new GameObject(string.Format(FORMATING_STRING, PARENT_NAME, typeof(T).Name))
+                                        .AddComponent<T>();
+                                    Debug.LogWarning("Singleton self creator set to prefab mode, but script is missing! " + intermediate.GetPrefabPath);
                                 }
                             }
                             else
@@ -61,16 +69,19 @@ namespace App.LogicAppShared.Runtime.Scripts.CommonPatterns
 
         protected virtual void Awake()
         {
-            if (_instance != null && _instance != this)
-            {
-                DestroyImmediate(this.gameObject);
-            }
+            CheckIsDuplicate();
         }
 
         protected virtual void Start()
         {
-            if (Instance != this)
+            CheckIsDuplicate();
+        }
+
+        internal void CheckIsDuplicate()
+        {
+            if (IsExist && _instance != this)
             {
+                Debug.LogWarning("Another Singleton On Scene!");
                 DestroyImmediate(this.gameObject);
             }
         }

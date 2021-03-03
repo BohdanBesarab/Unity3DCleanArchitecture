@@ -5,6 +5,9 @@
 ![CodeCoverage](/app-ca/CodeCoverage/Report/badge_combined.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture/badge)](https://www.codefactor.io/repository/github/studentutu/unity3dcleanarchitecture)
 [![GitHub issues](https://img.shields.io/github/issues/studentutu/Unity3DCleanArchitecture)](https://github.com/studentutu/Unity3DCleanArchitecture/issues)
+<a href="https://mergify.io">
+   <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/openupm/openupm&style=flat" />
+</a>
 <br />
 
 # Clean Architecture

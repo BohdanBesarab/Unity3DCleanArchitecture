@@ -8,6 +8,7 @@
 <a href="https://mergify.io">
    <img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/openupm/openupm&style=flat" />
 </a>
+![GitHub last commit](https://img.shields.io/github/last-commit/studentutu/Unity3DCleanArchitecture)
 <br />
 
 # Clean Architecture

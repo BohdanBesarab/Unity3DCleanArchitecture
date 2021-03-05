@@ -10,6 +10,7 @@
 </a>
 ![GitHub last commit](https://img.shields.io/github/last-commit/studentutu/Unity3DCleanArchitecture)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a1416484f71747d0a26326cb37c91676)](https://www.codacy.com/gh/studentutu/Unity3DCleanArchitecture/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=studentutu/Unity3DCleanArchitecture&amp;utm_campaign=Badge_Grade)
+![Size](https://github-size-badge.herokuapp.com/studentutu/Unity3DCleanArchitecture.svg)
 <br />
 
 # Clean Architecture
